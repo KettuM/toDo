@@ -1,0 +1,12 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rrem;
+  font-weight: normal;
+  background-image: linear-gradient(to left,hsla(160, 100%, 37%, 1), #fdfdfd);
+  min-height: 60rem;
+  background-repeat: repeat-y;
+}
+
+
