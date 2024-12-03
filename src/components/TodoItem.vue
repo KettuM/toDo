@@ -12,9 +12,10 @@ defineProps({
 })
 const emit = defineEmits(['toggle-completed', 'delete-todo', 'edit-todo'])
 
-let text = ref('')
+const text = ref('')
 
 const editTodo = (todo) => {
+    console.log("todo TodoItemissä: ", todo)
   if (text.value) {
     todo.todo = text
     emit('edit-todo', todo)
